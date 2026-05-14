@@ -17,8 +17,6 @@ export default function Counter() {
     setCount(count - 1);
   };
 
-    // setCount(count + 1)
-
   console.log("rendered, count:", count);
 
   return (

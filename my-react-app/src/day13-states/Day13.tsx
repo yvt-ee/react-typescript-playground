@@ -2,8 +2,6 @@ import { useState } from "react";
 import Counter from "./Counter";
 import Item from "./Item";
 import TotalPrice from "./TotalPrice";
-import ShowAndHide from "./ShowAndHide";
-import UpdatingArray from "./UpdatingArray";
 import People from "./People";
 
 type Theme = "blue" | "red";
