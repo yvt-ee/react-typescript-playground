@@ -13,12 +13,6 @@ export default function Day13() {
   const [price, setPrice] = useState(0);
 
   const toggleTheme = () => {
-    // if (theme === "red") {
-    //   setTheme("blue");
-    // } else {
-    //   setTheme("red");
-    // }
-
     setTheme(theme === "red" ? "blue" : "red");
   };
 
@@ -33,7 +27,7 @@ export default function Day13() {
 
       {/* <Counter /> */}
       <button onClick={toggleTheme}>Toggle Theme</button>
-      <button onClick={increasePrice}>Increase Price</button>
+      <button disabled={price>5000} onClick={increasePrice}>Increase Price</button>
       <br />
       <br />
       <br />
