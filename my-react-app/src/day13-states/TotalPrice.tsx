@@ -4,11 +4,10 @@ export default function TotalPrice() {
   const [priceA, setPriceA] = useState(0);
   const [priceB, setPriceB] = useState(0);
   const [priceC, setPriceC] = useState(0);
-  // this totalPrice is an unnecessary state
-  // because it can be directly calculated
+  // totalPrice is an unnecessary state
   // const [totalPrice, setTotalPrice] = useState(0);
+  // because it can be directly calculated
 
-  // don't add unnececary state
   const totalPrice = priceA + priceB + priceC;
 
   const increasePriceA = () => {
@@ -25,9 +24,6 @@ export default function TotalPrice() {
 
   return (
     <div>
-      <br />
-      <br />
-      <br />
       <div>Price A: {priceA}</div>
       <div>Price B: {priceB}</div>
       <div>Price C: {priceC}</div>
