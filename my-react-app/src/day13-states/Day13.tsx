@@ -1,7 +1,6 @@
 import { useState } from "react";
 import Counter from "./Counter";
 import Item from "./Item";
-import Foo from "./Foo";
 import TotalPrice from "./TotalPrice";
 import ShowAndHide from "./ShowAndHide";
 import UpdatingArray from "./UpdatingArray";
